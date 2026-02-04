@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            color: darkturquoise;
+            text-align: center;
+            text-decoration:double underline lightblue 
+            ;
+
+        }    
+        </style>
+</head>
+<body>
+    <h1 class="d1">SEE WHAT I CAN DO!!!</h1>
+    <h2>Let me inroduce myself : </h2>
+    <script>
+        var person ={
+            firstname:"My name is ",
+            name:"Sayesha.",
+            age:13,
+            fav_color:"White,Black,Pink,.",
+            city:"Delhi.",
+            abilities :"Coding,Art,Dance."
+        };
+        document.write(person.firstname + person.name + "I live in " +person.city +"I am " +person.age + " years old and my favourite colors are " + person.fav_color+"Le me tell you about my abilities:<br> My abiliites are- " + person.abilities+ "Let me exhibit my <mark>CODING</mark> ability today.<br><br><br>")
+        
+        var numbers=["23 <br>56<br>78<br>36<br>20<br>81<br>46<br>37"]
+        var text="";
+        for(var i=0; i<numbers.length; i++){
+            text +=numbers[i]+"<br><br> Current Month:"
+
+        }
+        document.write(text)
+       var date;
+        switch(new Date().getMonth()){
+        
+            case 0:
+                day="January";
+                break;
+            case 1:
+                day = "February <br> The round of value -";
+                break;
+            case 2:
+                day = "March";
+                break;
+            case 3:
+                day = "April";
+                break;
+            case 4:
+                day = "May";
+                break;
+            case 5:
+                day = "June";
+                break;
+             case 6:
+                day = "July";
+                break;
+            case 7:
+                day = "August";
+                break;
+            case 8:
+                day = "September";
+                break;
+            case 9:
+                day = "October";
+                break;
+            case 10:
+                day = "November";
+                break;
+            case 11:
+                day = "December ";
+                break;
+            
+        }
+        document.write(day );
+        var x= Math.floor(34.999)
+        document.write(x)
+    </script>
+    
+</body>
+</html>
